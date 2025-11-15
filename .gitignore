@@ -1,0 +1,11 @@
+# .gitignore 파일 내용
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
+.idea/
+.vscode/
+runs/
+# 만약 best.pt가 100MB가 넘으면 아래 줄 주석을 해제해서 깃헙에 안 올라가게 막아야 합니다.
+# *.pt
